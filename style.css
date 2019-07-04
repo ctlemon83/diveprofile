@@ -1,0 +1,84 @@
+body {
+	margin: 0px;
+}
+
+	a {
+		text-decoration: none;
+	}
+
+	#mainhead {
+		top: 0;
+		width: 100%;
+		background-image: linear-gradient(to right, rgb(43, 66, 211), rgb(88, 129, 217));
+		color: white;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	main {
+		display: grid; 
+		grid-template-columns: repeat(10, 1fr); 
+		grid-template-rows: repeat(10, 1fr); 
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+	}
+
+		.blocks {
+			margin: 25px;
+			padding: 10px;
+			background-color: rgb(159, 164, 196, 0.6);
+			border-style: solid;
+		}
+
+		#proCard {
+			text-align: center;
+			grid-area: 1 / 1 / 7 / 3;
+		}
+
+			#picCard {
+				width: 10rem;
+				height: 10rem;
+				border-style: solid;
+				border-color: white;
+				border-radius: 50%;
+				margin: 10px;
+			}
+
+			#infoCard {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.info-style {
+				margin: 2px;
+			}
+
+			#mainInfo {
+				border-bottom: groove;
+			}
+
+			#mainStats {
+				margin-top: 10px;
+				border-bottom: groove;
+			}
+
+			#lifeStats {
+				margin-top: 10px;
+			}
+
+		#diveBio {
+			grid-area: 1 / 3 / 7 / 11;
+		}
+
+			#training {
+				display: flex;
+			}
+
+			.trainingstyles {
+				border: solid;
+				margin: 10px;
+			}
