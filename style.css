@@ -108,7 +108,7 @@ body {
 
 		#jobs {
 			display: flex;
-			justify-content: center;
+			justify-content: space-around;
 		}
 
 		.jobs {
